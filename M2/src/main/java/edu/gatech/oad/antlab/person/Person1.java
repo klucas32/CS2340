@@ -3,8 +3,8 @@ package edu.gatech.oad.antlab.person;
 /**
  * A simple class for person 1 returns their name and a modified string
  * 
- * @author Bob
- * @version 1.1
+ * @author Mohamud Gedi
+ * @version 1.2
  */
 public class Person1 {
 	/** Holds the persons real name */
