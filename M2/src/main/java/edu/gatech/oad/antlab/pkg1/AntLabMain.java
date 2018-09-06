@@ -7,8 +7,8 @@ import edu.gatech.oad.antlab.pkg2.*;
 /**
  * CS2335 Ant Lab
  *
- * Prints out a simple message gathered from all of the other classes
- * in the package structure
+ * Prints out a simple message gathered from all of the other classes in the
+ * package structure
  */
 public class AntLabMain {
 
@@ -62,30 +62,26 @@ public class AntLabMain {
 		  //and gburdell3 with your gt id
 		  Person3 p3 = new Person3("Sabrina Edwards-Swart");
 		  toPrint += p3.toString("sjes3");
-                  //Person4 replace P4 with your name
-                  //and gburdell4 with your gt id
-                  Person4 p4 = new Person4("P4");
-                  toPrint += p4.toString("gburdell4");
-                  //Person5 replace P4 with your name
-                  //and gburdell5 with your gt id
-                  Person5 p5 = new Person5("Ibrahim");
-                  toPrint += p5.toString("ialsaffar3");
+      //Person4 replace P4 with your name
+      //and gburdell4 with your gt id
+      Person4 p4 = new Person4("Katia");
+      toPrint += p4.toString("klucas32");
+      //Person5 replace P4 with your name
+      //and gburdell5 with your gt id
+      Person5 p5 = new Person5("Ibrahim");
+      toPrint += p5.toString("ialsaffar3");
 		  
-        System.out.println(toPrint);
+      System.out.println(toPrint);
         
 
     }
-     
-
+   
     /**
      * entry point for the program
      */
-    public static void main(String[] args) {
+    public static void main(String[] args) {       
         new AntLabMain().printOutMessage();
-        
-     } 
-    
-    
-    
-    
- }
+       
+    }
+
+}
