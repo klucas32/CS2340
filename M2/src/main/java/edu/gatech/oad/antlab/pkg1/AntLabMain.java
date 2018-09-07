@@ -6,25 +6,35 @@ import edu.gatech.oad.antlab.pkg2.*;
 
 /**
  * CS2335 Ant Lab
- *
+ * <p>
  * Prints out a simple message gathered from all of the other classes in the
  * package structure
  */
 public class AntLabMain {
 
-    /** antlab11.java message class */
+    /**
+     * antlab11.java message class
+     */
     private AntLab11 ant11;
 
-    /** antlab12.java message class */
+    /**
+     * antlab12.java message class
+     */
     private AntLab12 ant12;
 
-    /** antlab21.java message class */
+    /**
+     * antlab21.java message class
+     */
     private AntLab21 ant21;
 
-    /** antlab22.java message class */
+    /**
+     * antlab22.java message class
+     */
     private AntLab22 ant22;
 
-    /** antlab31 java message class which is contained in a jar resource file */
+    /**
+     * antlab31 java message class which is contained in a jar resource file
+     */
     private AntLab31 ant31;
 
     /**
@@ -43,7 +53,6 @@ public class AntLabMain {
     /**
      * gathers a string from all the other classes and prints the message out to the
      * console
-     *
      */
     public void printOutMessage() {
 
@@ -59,24 +68,25 @@ public class AntLabMain {
         toPrint += p2.toString("gwaters8");
         // Person3 replace P3 with your name
         // and gburdell3 with your gt id
-		  Person3 p3 = new Person3("Sabrina Edwards-Swart");
-		  toPrint += p3.toString("sjes3");
-      //Person4 replace P4 with your name
-      //and gburdell4 with your gt id
-      Person4 p4 = new Person4("Katia");
-      toPrint += p4.toString("klucas32");
-      //Person5 replace P4 with your name
-      //and gburdell5 with your gt id
-      Person5 p5 = new Person5("Ibrahim");
-      toPrint += p5.toString("ialsaffar3");
-		  
-      System.out.println(toPrint);
+        Person3 p3 = new Person3("Sabrina Edwards-Swart");
+        toPrint += p3.toString("sjes3");
+        //Person4 replace P4 with your name
+        //and gburdell4 with your gt id
+        Person4 p4 = new Person4("Katia");
+        toPrint += p4.toString("klucas32");
+        //Person5 replace P4 with your name
+        //and gburdell5 with your gt id
+        Person5 p5 = new Person5("Ibrahim");
+        toPrint += p5.toString("ialsaffar3");
+
+        System.out.println(toPrint);
     }
-   
+
     /**
      * entry point for the program
+     * @param args The standard input from the console.
      */
-    public static void main(String[] args) {       
+    public static void main(String[] args) {
         new AntLabMain().printOutMessage();
     }
 
