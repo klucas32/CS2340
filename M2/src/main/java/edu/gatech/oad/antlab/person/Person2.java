@@ -54,13 +54,11 @@ public class Person2 {
         // Person 2 put your implementation here
         String output = "";
         while (input.length() != 0) {
-            System.out.println("input: " + input);
             if (input.length() <= 1) {
                 output += input;
                 input = "";
             } else {
                 int randomNumber = new Random().nextInt(input.length() - 1);
-                System.out.println("randomnumber: " + randomNumber);
                 output += input.charAt(randomNumber);
                 if (randomNumber == 0) {
                     input = input.substring(1);
@@ -70,7 +68,6 @@ public class Person2 {
                     input = input.substring(0, randomNumber) + input.substring(randomNumber + 1);
                 }
             }
-            System.out.println("output: " + output);
         }
         return output;
     }
