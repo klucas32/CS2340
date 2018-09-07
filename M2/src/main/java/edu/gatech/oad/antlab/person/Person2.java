@@ -58,7 +58,7 @@ public class Person2 {
                 output += input;
                 input = "";
             } else {
-                int randomNumber = new Random().nextInt(input.length() - 1);
+                int randomNumber = new Random().nextInt(input.length());
                 output += input.charAt(randomNumber);
                 if (randomNumber == 0) {
                     input = input.substring(1);
