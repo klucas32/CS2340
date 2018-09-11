@@ -3,8 +3,8 @@ package edu.gatech.oad.antlab.person;
 /**
  *  A simple class for person 5
  *  returns their name and a
- *  modified string 
- *  
+ *  modified string
+ *
  *  @author Bob
  *  @version 1.1
  */
@@ -34,8 +34,8 @@ public class Person5 {
         if (input.length() < 2) {
             throw new IllegalArgumentException();
         }
-        toReturn += input.substring(2, input.length() - 1);
-        toReturn += input.substring(0, 1);
+        toReturn += input.substring(2, input.length());
+        toReturn += input.substring(0, 2);
         return toReturn;
     }
 
